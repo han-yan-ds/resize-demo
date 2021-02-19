@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App" ref={ref}>
-      {`Window Width: ${clientWidth}`}<br/>{`Height X 30%: ${clientHeight}`}
+      {`Width: ${clientWidth}`}<br/>{`Height: ${clientHeight}`}
 
       {/* <Chart /> */}
     </div>
