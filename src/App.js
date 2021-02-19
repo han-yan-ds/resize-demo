@@ -7,7 +7,7 @@ import Chart from "./Chart";
 
 function App() {
   const ref = useRef(null);
-  const { clientWidth, clientHeight } = useResize(ref);
+  const { clientWidth, clientHeight, offsetWidth, offsetHeight } = useResize(ref);
 
   return (
     <div className="App" ref={ref}>

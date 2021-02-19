@@ -11,7 +11,7 @@ const data = [
 const Chart = ({width, height}) => (
   <VictoryChart 
     containerComponent={
-      <VictoryContainer preserveAspectRatio="none" responsive={true} />
+      <VictoryContainer preserveAspectRatio="none" responsive={false} />
     }
     width={width} 
     height={height}
